@@ -1,6 +1,9 @@
 import { sveltekit } from "@sveltejs/kit/vite";
 
-import { vitePath, vitestPath, sourcePath } from "./config.js";
+import { sourcePath } from "./svelte.config";
+
+const vitePath = ".vite";
+const vitestPath = ".vitest";
 
 /** @type {import("vite").UserConfig} */
 export default {
