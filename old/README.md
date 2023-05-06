@@ -1,5 +1,14 @@
 # Unicode Explorer
 
+- [x] Create SvelteKit application
+- [x] Research the Unicode standard
+- [ ] Process data from the [Unicode Character Database](https://www.unicode.org/Public/UCD/latest/ucd/ReadMe.txt)
+  - [ ] Download
+  - [ ] Parse files
+  - [ ] Encode for easy JavaScript consumption
+- [ ] Create virtual list implementation
+- [ ] Display all Unicode characters
+
 ## Research
 
 ### Application
