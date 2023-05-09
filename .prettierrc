@@ -1,6 +1,0 @@
-{
-  "$schema": "https://json.schemastore.org/prettierrc",
-  "endOfLine": "auto",
-  "printWidth": 100,
-  "useTabs": true
-}
