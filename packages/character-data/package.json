@@ -1,0 +1,14 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"name": "@unicode/character-data",
+	"main": "dist/index.ts",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"clean": "rimraf ./dist",
+		"develop": "tsc --watch"
+	},
+	"devDependencies": {
+		"@types/node": "^20.1.1"
+	}
+}

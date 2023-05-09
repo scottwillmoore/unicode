@@ -1,0 +1,20 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"name": "unicode",
+	"workspaces": [
+		"./packages/*"
+	],
+	"scripts": {
+		"build": "turbo build",
+		"check": "prettier --check .",
+		"clean": "turbo clean",
+		"develop": "turbo develop",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"prettier": "^2.8.8",
+		"rimraf": "^5.0.0",
+		"turbo": "^1.9.3",
+		"typescript": "^5.0.4"
+	}
+}
