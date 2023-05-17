@@ -1,5 +1,40 @@
 # Unicode
 
+This is a work in progress! See below for my notes and thoughts.
+
+## Overview
+
+An application to explore the Unicode Standard.
+
+It should be a fast, responsive, client-side application (SPA) written in JavaScript. All expensive computation is pre-rendered with static-site generation (SSG). Therefore, the application will be quick, but still indexed by search engines (SEO). In addition, the website can be cheaply hosted as static files, with no server-side logic.
+
+The application should contain documentation for the Unicode standard?
+
+Learn about Unicode architecture and terminology, such as code spaces, code points, code planes, code blocks, properties, ligatures, encodings...
+
+View all Unicode characters on a single page, which uses a virtualized renderer to perform at adequate speed. Filter and search for Unicode characters in this view. A strategy to easily index and search this large dataset on the client will be required.
+
+View specific character properties and encodings.
+
+The data can come from the Unicode Character Database (UCD), the Common Locale Data Repository (CLDR) and Wikipedia.
+
+## Features
+
+- Overview of the Unicode Standard.
+- Overview of common Unicode terminology.
+- Browse Unicode properties.
+- Browse Unicode encodings.
+- Browse Unicode characters.
+- View a unique Unicode character.
+  - Annotations.
+  - Charts.
+  - Encodings.
+  - Fonts.
+  - Names.
+  - Properties.
+  - Wikipedia descriptions.
+- Change the font used by the application.
+
 ## References
 
 ### Wikipedia
