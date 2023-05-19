@@ -1,20 +1,30 @@
 {
 	"$schema": "https://json.schemastore.org/package",
+	"private": true,
 	"name": "unicode",
 	"workspaces": [
-		"./packages/*"
+		"apps/*",
+		"packages/*"
 	],
 	"scripts": {
 		"build": "turbo build",
-		"check": "prettier --check .",
+		"check": "run-s check:*",
+		"check:rome": "rome check .",
+		"check:prettier": "prettier --check .",
 		"clean": "turbo clean",
 		"develop": "turbo develop",
-		"format": "prettier --write ."
+		"fix": "run-s fix:*",
+		"fix:rome": "rome check --apply .",
+		"fix:prettier": "prettier --write .",
+		"preview": "turbo preview"
 	},
 	"devDependencies": {
-		"rimraf": "^5.0.0",
-		"rome": "^12.0.0",
-		"turbo": "^1.9.3",
+		"npm-run-all2": "^6.0.5",
+		"prettier": "^2.8.8",
+		"prettier-plugin-organize-imports": "^3.2.2",
+		"rimraf": "^5.0.1",
+		"rome": "^12.1.2",
+		"turbo": "^1.9.8",
 		"typescript": "^5.0.4"
 	}
 }

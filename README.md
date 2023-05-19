@@ -35,7 +35,35 @@ The data can come from the Unicode Character Database (UCD), the Common Locale D
   - Wikipedia descriptions.
 - Change the font used by the application.
 
+## Tasks
+
+- [x] Install Prettier
+- [x] Use Prettier for format, and Rome for lint
+- [x] Setup Next project
+- [x] Organise Typescript configuration
+- [x] Organise Turbo scripts
+- [x] Clean up packages directory
+- [x] Remove archives directory
+- [ ] Setup Next for SSG
+- [ ] Add basic structure to web page
+- [ ] Begin to create a virtual grid and table
+- [ ] Work on Unicode data collection
+- [ ] Create GitHub workflow for deployment
+
 ## References
+
+### Application
+
+- [Codepoints](https://codepoints.net/)
+- [Shapecatcher](https://shapecatcher.com/)
+- [Symbl](https://symbl.cc/en/)
+- [Unicode (FileFormat)](https://www.fileformat.info/info/unicode/)
+- [Unicode Character Finder](https://www.mclean.net.nz/ucf/)
+- [Unicode Code Point and Grapheme Cluster Explorer](https://unicode.fyi/)
+- [Unicode Lookup](https://unicodelookup.com/)
+- [Unicode Search](http://xahlee.info/comp/unicode_index.html)
+- [Unicode Table](https://old.unicode-table.com/en/)
+- [Unicodes](https://github.com/jessetane/unicodes)
 
 ### Wikipedia
 
@@ -84,3 +112,8 @@ The data can come from the Unicode Character Database (UCD), the Common Locale D
     - [Properties](https://unicode-org.github.io/icu/userguide/strings/properties.html)
 - [ICU4X](https://github.com/unicode-org/icu4x)
   - [Documentation](https://docs.rs/icu/latest/icu/)
+
+### SEO
+
+- [React SEO](https://ahrefs.com/blog/react-seo/)
+- [Single Page Application SEO](https://medium.com/@theadkgroup/spa-seo-single-page-applications-and-seo-2d94ac505ce9)

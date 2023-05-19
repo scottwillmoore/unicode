@@ -1,11 +1,12 @@
 {
 	"$schema": "https://json.schemastore.org/package",
+	"private": true,
 	"name": "@unicode/character-data",
 	"main": "dist/index.ts",
 	"types": "dist/index.d.ts",
 	"scripts": {
 		"build": "tsc",
-		"clean": "rimraf ./dist",
+		"clean": "rimraf .turbo dist",
 		"develop": "tsc --watch"
 	},
 	"devDependencies": {

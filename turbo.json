@@ -3,7 +3,7 @@
 	"pipeline": {
 		"build": {
 			"dependsOn": ["^build"],
-			"outputs": ["./dist/**"]
+			"outputs": [".next/**", "dist/**"]
 		},
 		"clean": {
 			"cache": false
@@ -11,6 +11,11 @@
 		"develop": {
 			"cache": false,
 			"persistent": true
+		},
+		"preview": {
+			"cache": false,
+			"dependsOn": ["^build"],
+			"persistent": false
 		}
 	}
 }

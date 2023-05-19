@@ -1,10 +1,16 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
-	"extends": "../../tsconfig.json",
-	"include": ["./src"],
+	"extends": "../../typescript.json",
+	"include": ["src/**/*"],
 	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"lib": ["ESNext"],
 		"module": "CommonJS",
 		"moduleResolution": "Node",
-		"outDir": "./dist"
+		"outDir": "./dist",
+		"preserveWatchOutput": true,
+		"sourceMap": true,
+		"target": "ESNext"
 	}
 }

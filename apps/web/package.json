@@ -1,0 +1,21 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"private": true,
+	"name": "@unicode/web",
+	"scripts": {
+		"build": "next build",
+		"clean": "rimraf .turbo .next",
+		"develop": "next dev",
+		"preview": "next start"
+	},
+	"dependencies": {
+		"next": "^13.4.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.2.1",
+		"@types/react": "^18.2.6",
+		"@types/react-dom": "^18.2.4"
+	}
+}
