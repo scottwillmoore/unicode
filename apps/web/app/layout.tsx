@@ -1,4 +1,11 @@
+import { Metadata } from "next";
 import { FunctionComponent, PropsWithChildren } from "react";
+
+import "./layout.css";
+
+export const metadata: Metadata = {
+	title: "Unicode",
+};
 
 export type LayoutProps = PropsWithChildren;
 

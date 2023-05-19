@@ -1,2 +1,5 @@
 /** @type {import("next").NextConfig} */
-module.exports = {};
+module.exports = {
+	output: "export",
+	reactStrictMode: true,
+};

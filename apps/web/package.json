@@ -4,9 +4,8 @@
 	"name": "@unicode/web",
 	"scripts": {
 		"build": "next build",
-		"clean": "rimraf .turbo .next",
-		"develop": "next dev",
-		"preview": "next start"
+		"clean": "rimraf .next/ .turbo/ next-env.d.ts out/",
+		"develop": "next dev"
 	},
 	"dependencies": {
 		"next": "^13.4.2",

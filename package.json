@@ -15,8 +15,7 @@
 		"develop": "turbo develop",
 		"fix": "run-s fix:*",
 		"fix:rome": "rome check --apply .",
-		"fix:prettier": "prettier --write .",
-		"preview": "turbo preview"
+		"fix:prettier": "prettier --write ."
 	},
 	"devDependencies": {
 		"npm-run-all2": "^6.0.5",

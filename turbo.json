@@ -11,11 +11,6 @@
 		"develop": {
 			"cache": false,
 			"persistent": true
-		},
-		"preview": {
-			"cache": false,
-			"dependsOn": ["^build"],
-			"persistent": false
 		}
 	}
 }
